@@ -1,0 +1,25 @@
+{
+  "rules": {
+    "admin": {
+      "canManageUsers": true,
+      "canManageLabs": true,
+      "canViewAnalytics": true,
+      "canModerateContent": true,
+      "permissions": ["create", "read", "update", "delete"]
+    },
+    "instructor": {
+      "canManageUsers": false,
+      "canManageLabs": true,
+      "canViewAnalytics": true,
+      "canModerateContent": true,
+      "permissions": ["create", "read", "update"]
+    },
+    "user": {
+      "canManageUsers": false,
+      "canManageLabs": false,
+      "canViewAnalytics": false,
+      "canModerateContent": false,
+      "permissions": ["read"]
+    }
+  }
+}

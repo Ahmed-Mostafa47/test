@@ -1,0 +1,8 @@
+node_modules
+.git
+dist
+build
+.env.local
+.DS_Store
+src/components/auth/vendor
+*.php
